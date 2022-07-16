@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&family=Poppins:wght@300;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+background: #f2f2f2;
+}
+
+h2{
+    text-align: center;
+    padding: 2em ;
+}
+
+nav{
+    height: 70px;
+    background: rgb(48, 59, 160);
+    color: #fff;
+}
+
+
+.nav__header{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.nav__logo > h2{
+   
+}
+
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+     margin-left: 1em;
+    
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav__conocenos{
+    display: flex;
+    align-items: center;
+     height: calc(100vh - 70px);
+    min-height: 600px;
+
+}
+
+.conocenos__encabezado{
+    flex: 1;
+}
+
+.imagen__conocenos{
+    flex: 1;
+}
+
+.imagen__conocenos img{
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.figura{
+    flex: 350px;
+}
+
+.figura > img{
+    width: 100%;
+    height: 100%;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;  
+}
+
+.card figure{
+    height: 50%;
+}
+
+.card figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.card a{
+    display: block;
+    width: 150px;
+    background: rgb(50, 120, 185);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0;
+
+}
+
+footer{
+    background: rgb(190, 190, 190);
+}
+
+.contacto{
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.copy{
+    padding: 0 auto;
+    margin: 100px;
+}
+.datos__empresa{
+    padding: 0 auto;
+    margin: 50px;
+    overflow: hidden;
+}

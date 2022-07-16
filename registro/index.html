@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sing Up</title>
+</head>
+<body>
+    <form onsubmit="return false">
+        <div class="conatiner">
+            <h1>Sing Up</h1>
+            <input class="input" id="usuario" type="text" placeholder="usuario">
+            <input class="input" id="password" type="password" placeholder="password" onkeyup='validar()'>
+            <input class="input" id="confirmar" type="password" placeholder="confirmar password" onkeyup='validar()'>
+            <p id="mensaje"></p>
+            <input class="button" type="submit" id="btnEnviar">
+        </div>
+    </form>
+  
+    <script src="app.js"></script>
+</body>
+</html>
